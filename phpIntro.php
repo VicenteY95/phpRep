@@ -12,7 +12,19 @@ $state ='Texas';
 $postalCode ='75244';
 
 // string concatenation used to create address block
-print $name.'<br>'.$address.'<br>'.$city.'<br>'.$state.'<br>'.$postalCode;
+print $name.'<br>'.$address.'<br>'.$city.'<br>'.$state.'<br>'.$postalCode.'<br>';
 
+// non zero number assignment
+$x = 4;
+$y = 5; 
 
+// arithmetic operators
+$myAddition = $x + $y;
+$mySubtraction = $x - $y;
+$myMultiplication = $x * $y;
+$myDivision = $x / $y;
+$myModulus = $x % $y;
+
+// displaying operation and solutions of x and y
+echo 'The solution when adding x and y is: '.$myAddition;
 ?>
