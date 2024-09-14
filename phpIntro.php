@@ -7,7 +7,8 @@
     <body>
 <?php # Script 1.5 - phpIntro.php
 // intro statement
-echo 'Welcome to my webpage! My name is Vicente Yerena, and I am taking this course to learn software skills to compliment my practical knowledge.<br>';
+$intro = 'Welcome to my webpage! My name is Vicente Yerena, and I am taking this course to learn software skills to compliment my practical knowledge.<br>';
+echo $intro;
 // quote from Dr. Evil as seen in the Austin Powers film franchise assigned to string variable
 $quote = 'Doctor Evil! I Didn’t Spend Six Years In Evil Medical School To Be Called Mister, Thank You Very Much.<br>';
 echo $quote.'<br>';
