@@ -5,7 +5,7 @@
         <title>Intro to PHP</title>
     </head>
     <body>
-<?php
+<?php # Script 1.5 - phpIntro.php
 // intro statement
 echo 'Welcome to my webpage! My name is Vicente Yerena, and I am taking this course to learn software skills to compliment my practical knowledge.<br>';
 // quote from Dr. Evil as seen in the Austin Powers film franchise assigned to string variable
@@ -40,7 +40,14 @@ echo 'The solution when dividing x and y is: '.$myDivision.'<br>';
 echo 'The modulus solution between x and y is: '.$myModulus.'<br>';
 
 // define() function to define a constant
+define('STUDENT', 'Vicente Yerena');
+echo STUDENT.'<br>';
 
+// creating variable for sript filename
+$file=$_SERVER['SCRIPT_FILENAME'];
+
+// printing name of this script
+echo"<p>You are running the file:<br /><strong>$file</strong>.</p>\n";
 ?>
 </body>
 </html>
