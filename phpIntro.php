@@ -26,5 +26,9 @@ $myDivision = $x / $y;
 $myModulus = $x % $y;
 
 // displaying operation and solutions of x and y
-echo 'The solution when adding x and y is: '.$myAddition;
+echo 'The solution when adding x and y is: '.$myAddition.'<br>';
+echo 'The solution when subtracting x and y is: '.$mySubtraction.'<br>';
+echo 'The solution when multiplying x and y is: '.$myMultiplication.'<br>';
+echo 'The solution when dividing x and y is: '.$myDivision.'<br>';
+echo 'The modulus solution between x and y is: '.$myModulus.'<br>';
 ?>
