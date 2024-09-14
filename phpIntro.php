@@ -1,3 +1,10 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Intro to PHP</title>
+    </head>
+    <body>
 <?php
 // intro statement
 echo 'Welcome to my webpage! My name is Vicente Yerena, and I am taking this course to learn software skills to compliment my practical knowledge.<br>';
@@ -31,4 +38,9 @@ echo 'The solution when subtracting x and y is: '.$mySubtraction.'<br>';
 echo 'The solution when multiplying x and y is: '.$myMultiplication.'<br>';
 echo 'The solution when dividing x and y is: '.$myDivision.'<br>';
 echo 'The modulus solution between x and y is: '.$myModulus.'<br>';
+
+// define() function to define a constant
+
 ?>
+</body>
+</html>
