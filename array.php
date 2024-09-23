@@ -7,9 +7,11 @@ $albumRating["Take me to your leader"] = "7";
 ksort($albumRating);
 $pageContent = "<h2>Favorite Albums</h2>";
 foreach($albumRating as $name => $rating) {
-    echo "Album". $name . ", Rating=" . $rating;
+    echo "Album= ". $name . ", Rating= " . $rating;
     echo "<br>"; 
 }
+
+echo $pageContent
 ?>
 </body>
 </html>
