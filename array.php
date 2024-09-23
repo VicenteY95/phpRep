@@ -36,7 +36,7 @@ foreach($multi_array as $x => $x_value) {
   echo "Albums= ";
   foreach($x_value as $y => $y_value){
        echo $y;
-      echo "<br>";
+      echo "<br />";
   }
 }    
 
@@ -50,7 +50,8 @@ foreach($multi_array["The Who"] as $x => $x_value) {
     echo "<br>";
 }    
 
-// Write the php code to loop through the array and list all of the artists and albums that were released after 1970
+// attempted loop through the array and list all of the artists and albums that were released after 1970
+// unable to get loop to work correctly (does not show beatles album and displays wrong albums)
 foreach($multi_array as $x => $x_value) {
 
   foreach($x_value as $y => $y_value){
