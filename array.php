@@ -19,10 +19,10 @@ foreach($albumRating as $name => $rating) {
 // multidimensional array
 
 $multi_array =array(
-    "The Beatles"=>array("Help!" => "1965", "Rubber Soul"=> "1965", "Abbey Road"=>"1969"),
-    "LedZepplin"=>array("Led Zepplin IV" => "1971"),
-    "Rolling Stones"=>array("Let It Bleed" => "1969","Sticky Fingers"=> "1971"),
-    "The Who"=>array("Tommy" => "1969","Quadrophenia"=> "1973","The Who by Numbers"=> "1973")        
+    "The Beatles"=>array("Help!" => 1965, "Rubber Soul"=> 1965, "Abbey Road"=>1969),
+    "LedZepplin"=>array("Led Zepplin IV" => 1971),
+    "Rolling Stones"=>array("Let It Bleed" => 1969,"Sticky Fingers"=> 1971),
+    "The Who"=>array("Tommy" => 1969,"Quadrophenia"=> 1973,"The Who by Numbers"=> 1973)        
     );
     
 //  Access and display release date value for Tommy by The Who.
@@ -64,7 +64,6 @@ foreach($multi_array as $x => $x_value) {
       echo "<br>";
   }
 }    
-
 
 
 ?>
