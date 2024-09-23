@@ -52,7 +52,6 @@ foreach($multi_array["The Who"] as $x => $x_value) {
 }    
 
 // Write the php code to loop through the array and list all of the artists and albums that were released after 1970
-echo "Albums released after 1970: <br>";
 foreach($multi_array as $x => $x_value) {
 
   foreach($x_value as $y => $y_value){
