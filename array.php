@@ -40,7 +40,7 @@ foreach($multi_array as $x => $x_value) {
   }
 }    
 
-// • Loop through the array and write out the each album and release date for The Who.
+// Loop through the array and write out the each album and release date for The Who albums
 echo "Artist=";
 echo "The Who"."<br>";
 echo "Albums= ";
@@ -49,7 +49,7 @@ foreach($multi_array["The Who"] as $x => $x_value) {
     echo "<br>";
 }    
 
-// • Write the php code to loop through the array and list all of the artists and albums that were released after 1970.
+// Write the php code to loop through the array and list all of the artists and albums that were released after 1970
 foreach($multi_array as $x => $x_value) {
 
   foreach($x_value as $y => $y_value){
