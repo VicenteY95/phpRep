@@ -26,8 +26,8 @@ $multi_array =array(
     );
     
 //  Access and display release date value for Tommy by The Who.
-echo "Release date for Tommy by the Who: ";
-echo $multi_array["The Who"]["Tommy"];
+$releaseYear = $multi_array["The Who"]["Tommy"];
+echo "Release date for Tommy by the Who: ".$releaseYear."<br>";
 
 // Loop through the array and access each artist and album title.
 foreach($multi_array as $x => $x_value) {
